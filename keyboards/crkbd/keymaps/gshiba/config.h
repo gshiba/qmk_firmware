@@ -49,3 +49,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
+
+/* #define LSPO_KEYS KC_LSFT, KC_LSFT, KC_MINS */
+/* #define RSPC_KEYS KC_RSFT, KC_RSFT, KC_9 */
+/* #define LCPO_KEYS KC_LSFT, KC_TRNS, KC_MINS */
+/* #define RCPC_KEYS KC_RSFT, KC_RSFT, KC_0 */
+
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
+/* #define IGNORE_MOD_TAP_INTERRUPT */
+
+#define ONESHOT_TAP_TOGGLE 3  /* Tapping this number of times holds the key until tapped once again. */
+#define ONESHOT_TIMEOUT 500  /* Time (in ms) before the one shot key is released */
