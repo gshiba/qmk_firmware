@@ -1,6 +1,6 @@
 COMB(qew,       KC_Q,          KC_W, KC_F)  // left top row
-COMB(lsft,      KC_LSFT,          KC_R, KC_S) // left home row
-COMB(zee,       KC_Z,          KC_X, KC_C)  // left bottom row
-COMB(unds,     KC_UNDS,          KC_U, KC_Y) // right top row
-COMB(rsft,      KC_RSFT,          KC_E, KC_I)  // right home row
+/* COMB(lsft,      KC_LSFT,          KC_R, KC_S) // left home row */
+/* COMB(zee,       KC_Z,          KC_X, KC_C)  // left bottom row */
+/* COMB(unds,     KC_UNDS,          KC_U, KC_Y) // right top row */
+/* COMB(rsft,      KC_RSFT,          KC_E, KC_I)  // right home row */
 COMB(slsh,      KC_SLSH,          KC_COMM, KC_DOT)  // right bottom row
